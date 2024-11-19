@@ -117,6 +117,43 @@ nav ul li a:hover {
     background-color: #333;
 }
 
+.flash-offers {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.flash-offers h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.flash-offers .product-card {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flash-offers .product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.flash-offers .product-card p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -147,4 +184,8 @@ footer {
     text-align: center;
     border-top: 1px solid #ddd;
     margin-top: 20px;
+}
+
+.center-text {
+    text-align: center;
 }
